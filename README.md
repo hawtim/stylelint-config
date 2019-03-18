@@ -2,7 +2,7 @@
 
 ## Package install
 
-You can use `yarn` or `npm`, I use `yarn` for better package version locked
+You can use `yarn` or `npm`, I use `yarn` for better package version locked.
 
 ```bash
 yarn add stylelint stylelint-order stylelint-config-standard
@@ -211,7 +211,7 @@ rules: {
 ```
 
 Here I use `postcss-less` syntax to lint less file.
-If you need to lint less file, just type this in your terminal and it works
+If you need to lint less file, just type this in your terminal and it works.
 
 ```bash
 yarn add postcss
@@ -234,7 +234,8 @@ npm add postcss
 
 Might be you would feel good with your CSS now.
 
-Enjoy it :tada: 
+Enjoy it :tada:
 
 ## License
+
 MIT
