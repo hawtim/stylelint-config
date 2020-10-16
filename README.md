@@ -1,8 +1,6 @@
 # How to integrate stylelint into your project
 
-## Package install
-
-You can use `yarn` or `npm`, I use `yarn` for better package version locked.
+## Get started 🚀
 
 ```bash
 yarn add stylelint stylelint-order stylelint-config-standard
@@ -10,7 +8,7 @@ yarn add stylelint stylelint-order stylelint-config-standard
 npm install stylelint stylelint-order stylelint-config-standard --save-dev
 ```
 
-## Create `stylelint.config.js` file
+## Create `stylelint.config.js` file 🌟
 
 You can custom the rule for your teamwork rules.
 
@@ -39,7 +37,7 @@ module.exports = {
 }
 ```
 
-## Reorder your CSS Properties
+## Reorder CSS Properties 💡
 
 You might notice that there is a plugin named `stylelint order`.
 
@@ -200,13 +198,13 @@ rules: {
 }
 ```
 
-## Using yarn or npm script
+## Run tasks 🛠️
 
 ```json
 "scripts": {
-  "lint": "yarn run lint:css && yarn run lint:basecss",
-  "lint:css": "stylelint src/**/*.vue --fix",
-  "lint:basecss": "stylelint src/pages/**/*.less --custom-syntax ./node_modules/postcss-less --fix"
+  "lint": "npm run lint:vue && npm run lint:css",
+  "lint:vue": "stylelint test/**/*.vue --fix",
+  "lint:css": "stylelint test/**/*.less --custom-syntax ./node_modules/postcss-less --fix"
 }
 ```
 
@@ -214,27 +212,25 @@ Here I use `postcss-less` syntax to lint less file.
 If you need to lint less file, just type this in your terminal and it works.
 
 ```bash
-yarn add postcss
+npm install postcss
 # or
-npm add postcss
+yarn add postcss
 ```
 
-## Using husky to lint your code
+## Using husky 🐶 
 
-🐶 Additional, you can use husky to lint your code before git commit.
+Additional, you can use husky to lint your code before git commit.
 
 ```json
 // package.json
 "husky": {
   "hooks": {
-    "pre-commit": "yarn run lint",
+    "pre-commit": "npm run lint",
   }
 },
 ```
 
-Might be you would feel good with your CSS now.
-
-Enjoy it :tada:
+Feel it better now ? Enjoy it :tada:
 
 ## License
 

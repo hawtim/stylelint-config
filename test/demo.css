@@ -1,0 +1,12 @@
+.text {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  padding-left: 10px;
+  border: 1px solid #CCC;
+  left: 0;
+  text-align: center;
+  padding-right: 10px;
+  background-color: red;
+}
