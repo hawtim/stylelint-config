@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "husky": "^4.3.0",
-    "postcss": "^8.1.1",
+    "postcss": "^8.2.10",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0"
